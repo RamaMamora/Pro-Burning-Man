@@ -10,6 +10,7 @@ body {
 
 .header {
   background-color: black;
+  max-width: 1332px;
 }
 .header-simple {
   display: flex;
@@ -54,14 +55,15 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 600px;
+
   margin: 0 auto;
   text-align: center;
+  max-width: 1050px;
 }
 .join-section h1 {
-  color: #fbf7ea;
+  color: #ffffff;
   font-size: 56px;
-  padding-top: 262px;
+  padding-top: 84px;
   text-align: center;
 }
 .join-section p {
@@ -69,7 +71,7 @@ body {
   font-size: 18px;
   text-align: center;
   align-items: center;
-  padding: 39px;
+  padding: 32px;
 }
 .join-section a {
   display: inline-block;
@@ -78,6 +80,92 @@ body {
   text-align: center;
   font-size: 16px;
   padding: 13px 68px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 108px;
+}
+.del-tre {
+  background-image: url(/assets/img/billede\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 579px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1050px;
+}
+.del-tre h2 {
+  color: #ffffff;
+  font-size: 56px;
+  padding-top: 262px;
+  text-align: center;
+  padding-top: 49px;
+}
+.del-tre p {
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+}
+.our-future {
+  background-image: url(/assets/img/anden\ billede.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1050px;
+}
+.our-future p {
+  padding-top: 182px;
+  font-size: 35px;
+  color: #fcf9f9;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 66px;
+}
+.our-future a {
+  display: inline-block;
+  color: #000000;
+  background-color: #fff3c7;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 61px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.art-gallery {
+  background-image: url(/assets/img/billede\ 3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1050px;
+}
+.art-gallery h3 {
+  padding-top: 215px;
+  font-size: 48px;
+  color: #fbf7ea;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 18px;
+}
+.art-gallery a {
+  display: inline-block;
+  color: #000000;
+  background-color: #fff3c7;
+  text-align: center;
+  font-size: 16px;
+  padding: 13px 55px;
   text-decoration: none;
   border-radius: 30px;
   margin: 0 auto;

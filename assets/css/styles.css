@@ -3,3 +3,84 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: black;
+}
+.header-simple {
+  display: flex;
+  justify-content: space-between;
+  padding: 39px;
+}
+.header-simple ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0 auto;
+}
+.header-div {
+  display: flex;
+  gap: 24px;
+}
+.header-simple ul li {
+  color: #cecece;
+  font-size: 16px;
+}
+
+.header-simple a {
+  color: #cecece;
+  font-size: 16px;
+  text-decoration: none;
+}
+.header-simple a:hover {
+  text-decoration: underline;
+  color: #fff3c7;
+}
+
+.header-simple h2 {
+  color: #fbf7ea;
+  font-size: 16px;
+}
+.header-simple i {
+  color: #fcfcfc;
+}
+.join-section {
+  background-image: url(/assets/img/anden\ billede.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.join-section h1 {
+  color: #fbf7ea;
+  font-size: 56px;
+  padding-top: 262px;
+  text-align: center;
+}
+.join-section p {
+  color: #fbf7ea;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  padding: 39px;
+}
+.join-section a {
+  display: inline-block;
+  color: #000000;
+  background-color: #fff3c7;
+  text-align: center;
+  font-size: 16px;
+  padding: 13px 68px;
+  text-decoration: none;
+  border-radius: 30px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}

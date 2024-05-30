@@ -158,6 +158,8 @@ body {
   text-align: center;
   align-items: center;
   padding-bottom: 18px;
+  text-decoration: line-through;
+  border: 1 solid;
 }
 .art-gallery a {
   display: inline-block;
@@ -171,4 +173,37 @@ body {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+}
+.footer {
+  background-color: #030303;
+  padding: 127px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer h4 {
+  color: #fffafa;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 31px;
+}
+.footer p {
+  font-size: 16px;
+  color: #fffafa;
+  padding: 13px;
+  padding-left: 28px;
+  line-height: 2rem;
+}
+.iconer {
+  background-color: #e05810;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
 }

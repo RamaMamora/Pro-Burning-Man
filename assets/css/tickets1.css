@@ -77,45 +77,37 @@ body {
 .header-simple i {
   color: #fcfcfc;
 }
-.pay-tickets {
-  background-image: url(/assets/img/burning-man-2013\ 111.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0 auto;
-  text-align: center;
+.chek-out {
   max-width: 1080px;
-  min-height: 683px;
-  width: 100%;
-}
-#sale-ticket {
-  font-size: 48px;
   color: #dd8706;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.chek-out h2 {
+  color: #dd8706;
+  font-size: 48px;
+}
+.check-out-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #fcfaf7;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  gap: 50px;
   padding: 20px;
 }
-.burning-ticket article {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.burning-ticket p {
-  color: #fcfaf7;
+.check-out-wrapper p {
   font-size: 48px;
+  padding: 104px;
+}
+.check-out-wrapper h3 {
+  font-size: 25px;
   font-weight: bold;
-  padding-top: 128px;
-  padding-right: 139px;
-  padding-left: 86px;
 }
-.burning-ticket h3 {
-  color: #fcfaf7;
-  padding-right: 139px;
-  padding-left: 86px;
-  display: flex;
-  gap: 35px;
-  align-items: center;
-}
-.pay-tickets a {
+.check-out-wrapper a {
   display: inline-block;
   color: #000000;
   background-color: #fff3c7;
@@ -129,48 +121,27 @@ body {
   align-items: center;
   margin-top: 128px;
 }
-.map-billeder {
-  background-color: #000000;
-  max-width: 1131px;
-  padding: 30px;
+
+.check-out-content {
   display: flex;
-  align-items: center;
-  margin: 0 auto;
   justify-content: center;
-  gap: 60px;
-}
-.closer-look {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  margin: 0 auto;
-}
-.closer-look div {
-  padding: 28px;
+  gap: 100px;
+  article h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
-.closer-look h4 {
-  color: #fcfaf7;
+.contact-in-input {
+  width: 50%;
+  padding: 13px 16px;
+  border: 2px solid #3e3e3e;
+
+  font-size: 16px;
+  font-weight: 300;
 }
-.downloads {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 0 auto;
-  padding: 177px;
-}
-.downloads h2 {
-  color: #dd8706;
-  font-size: 40px;
-  padding: 30px;
-}
-.downloads p {
-  color: #fcfaf7;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  font-size: 25px;
-  gap: 41px;
-  padding: 20px;
+.contact-in-input::placeholder {
+  color: black;
 }

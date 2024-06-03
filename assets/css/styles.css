@@ -33,7 +33,27 @@ body {
   color: #cecece;
   font-size: 16px;
 }
+#cart {
+  position: relative;
+}
 
+#cart::after {
+  content: "01";
+  position: absolute;
+  color: black;
+  font-size: 10px;
+  padding: 8px;
+  background-color: #fff3c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2px;
+  height: 2px;
+  top: -15px;
+  right: -10px;
+  border-radius: 50%;
+  text-align: center;
+}
 .header-simple a {
   color: #cecece;
   font-size: 16px;
@@ -47,6 +67,8 @@ body {
 .header-simple h2 {
   color: #fbf7ea;
   font-size: 16px;
+  position: relative;
+  right: 85px;
 }
 .header-simple i {
   color: #fcfcfc;

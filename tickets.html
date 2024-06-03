@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="/assets/css/tickets.css" />
   </head>
   <body>
+    <section class="ticket">
+      <img src="/assets/img/tickets-img.png" alt="" />
+    </section>
     <header class="header">
       <ul class="header-simple">
         <div class="header-div">
@@ -23,31 +26,32 @@
           <li><a href="/gallery.html">Gallery</a></li>
         </div>
         <h2>BURNING MAN PROJECT</h2>
-        <i><i class="fa-solid fa-cart-shopping"></i></i>
+        <img id="cart" src="/assets/img/shopping-cart.svg" alt="" />
       </ul>
     </header>
-    <section class="ticket">
-      <img src="/assets/img/tickets-img.png" alt="" />
-    </section>
+    <h2 id="sale-ticket">TICKET SALE</h2>
     <section class="pay-tickets">
-      <h2>TICKET SALE</h2>
-
       <div class="burning-ticket">
         <article>
           <p>Burning Man Ticket</p>
           <p>100 &dollar;</p>
         </article>
         <article>
-          <p>Survival kit</p>
-          <p>15 &dollar; <i class="fa-solid fa-check"></i></p>
+          <h3>Survival kit</h3>
+          <h3>
+            15 &dollar; <img src="/assets/img/Icon-check-box.svg" alt="" />
+          </h3>
         </article>
         <article>
-          <p>Climate contribution</p>
-          <p>5 &dollar; <i class="fa-solid fa-check"></i></p>
+          <h3>Climate contribution</h3>
+          <h3>
+            5 &dollar; <img src="/assets/img/Icon-check-box.svg" alt="" />
+          </h3>
         </article>
       </div>
-      <a href="">BUY TICKET</a>
+      <a href="">Go to check out</a>
     </section>
+
     <section class="map-billeder">
       <article>
         <img src="/assets/img/ticket billede 1.png" alt="" />
@@ -55,10 +59,43 @@
       <article>
         <img src="/assets/img/ticket billede 2.png" alt="" />
       </article>
-      <article>
-        <i class="fa-solid fa-arrow-up"></i>
-        <p>CLICK ON THE MAP FOR A CLOSER LOOK</p>
-      </article>
+    </section>
+
+    <section class="closer-look">
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24.953"
+          height="57.685"
+          viewBox="0 0 24.953 57.685"
+        >
+          <path
+            id="Icon_akar-arrow-up"
+            data-name="Icon akar-arrow-up"
+            d="M18,60.685V6M7.5,29.925,18,6,28.5,29.925"
+            transform="translate(-5.524 -4.5)"
+            fill="none"
+            stroke="#f5a40b"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="3"
+          />
+        </svg>
+      </div>
+
+      <h4>CLICK ON THE MAP FOR A CLOSER LOOK</h4>
+    </section>
+
+    <section class="downloads">
+      <h2>Free Downloads</h2>
+      <p>
+        Black Rock City Map
+        <img src="/assets/img/Icon akar-cloud-download.svg" alt="" />
+      </p>
+      <p>
+        Packing List Example
+        <img src="/assets/img/Icon akar-cloud-download.svg" alt="" />
+      </p>
     </section>
 
     <footer class="footer">
@@ -71,10 +108,19 @@
       </article>
 
       <article class="iconer-container">
-        <img src="/assets/img/facebook.svg" class="iconer" alt="" />
-        <i class="fa-solid fa-envelope iconer"></i>
-        <i class="fa-brands fa-twitter iconer"></i>
-        <i class="fa-brands fa-instagram iconer"></i>
+        <div class="iconer">
+          <img src="/assets/img/facebook.svg" alt="" />
+        </div>
+        <div class="iconer">
+          <img src="/assets/img/mail.svg" alt="" />
+        </div>
+
+        <div class="iconer">
+          <img src="/assets/img/twitter.svg" alt="" />
+        </div>
+        <div class="iconer">
+          <img src="/assets/img/instagram.svg" alt="" />
+        </div>
       </article>
     </footer>
   </body>

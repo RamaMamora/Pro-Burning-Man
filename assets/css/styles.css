@@ -203,6 +203,7 @@ body {
 }
 .footer {
   background-color: #030303;
+  max-width: 1366px;
   padding: 127px;
   display: flex;
   justify-content: space-between;
